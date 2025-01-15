@@ -139,10 +139,10 @@ INSERT INTO asignatura VALUES (82, 'Procesos biotecnológicos', 6, 'obligatoria'
 INSERT INTO asignatura VALUES (83, 'Técnicas instrumentales avanzadas', 4.5, 'obligatoria', 3, 2, NULL, 7);
 
 /* Curso escolar */
-INSERT INTO curso_escolar VALUES (1, 2014, 2015);
-INSERT INTO curso_escolar VALUES (2, 2015, 2016);
-INSERT INTO curso_escolar VALUES (3, 2016, 2017);
-INSERT INTO curso_escolar VALUES (4, 2017, 2018);
+INSERT INTO curso_escolar VALUES (1, "2014", "2015");
+INSERT INTO curso_escolar VALUES (2, "2015", "2016");
+INSERT INTO curso_escolar VALUES (3, "2016", "2017");
+INSERT INTO curso_escolar VALUES (4, "2017", "2018");
 
 /* Alumno se matricula en asignatura */
 INSERT INTO alumno_se_matricula_asignatura VALUES (1, 1, 1);
